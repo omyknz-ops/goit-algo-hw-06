@@ -1,8 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-def create_transport_network():
-    """Create a graph of city metro/subway stations"""
+def create_transport_network(): #Create a graph of city metro/subway stations
     G = nx.Graph()
     
     # Add stations (nodes)
@@ -36,8 +35,7 @@ def create_transport_network():
     return G
 
 
-if __name__ == "__main__":
-    # Create graph
+if __name__ == "__main__": # MAIN EXECUTION
     G = create_transport_network()
 
     # ANALYSIS - Main characteristics
